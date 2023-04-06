@@ -1,0 +1,13 @@
+#! Python_magic
+#! @Arif_Hasnain
+
+import turtle, random
+turtle.bgcolor("black")
+squary = turtle.Turtle()
+squary.speed(50)
+for i in range (300) :
+    for color in ["red","yellow","magenta"]:
+        squary.pencolor(color)
+        squary.forward(i)
+        squary.left(60)
+        squary.right(9)
